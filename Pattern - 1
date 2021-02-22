@@ -1,0 +1,46 @@
+Written By - Kunwar Yashaswee Chhaunker
+
+Required Pattern - 
+
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+*   *   *   *   *   *
+
+Solution - 
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int row, col;
+    cout<<"Enter Row Size: "<<endl;
+    cin>>row;
+    cout<<"Enter Column Size"<<endl;
+    cin>>col;
+    for(int i = 1; i <=  row; i++){
+        for(int j = 1; j <= col; j++){
+            cout<<"*"<<"\t";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+Terminal - 
+
+Enter Row Size: 
+11
+Enter Column Size
+6
+*       *       *       *       *
+*       *       *       *       *
+*       *       *       *       *
+*       *       *       *       *
+*       *       *       *       *

@@ -1,0 +1,54 @@
+Written By - Kunwar Yashaswee Chhaunker
+
+Required Pattern - 
+
+
+          *
+         *      *
+        *       *       *
+       *        *       *       *
+      * *       *       *       *
+     *  *       *       *       *       *
+    *   *       *       *       *       *       *
+   *    *       *       *       *       *       *       *
+  *     *       *       *       *       *       *       *       *
+ *      *       *       *       *       *       *       *       *       *
+*       *       *       *       *       *       *       *       *       *      *
+
+Code - 
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int size;
+    cout<<"Enter the Size: "<<endl;
+    cin>>size;
+    for(int i = 1; i <= size; i++){
+        for(int j = 1; j <= size; j++){
+          if(j <= size - i){
+              cout<<" ";
+          }  
+          else{
+              cout<<"*"<<"\t";
+          }
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+Terminal - 
+
+Enter the Size: 
+11
+          *
+         *      *
+        *       *       *
+       *        *       *       *
+      * *       *       *       *
+     *  *       *       *       *       *
+    *   *       *       *       *       *       *
+   *    *       *       *       *       *       *       *
+  *     *       *       *       *       *       *       *       *
+ *      *       *       *       *       *       *       *       *       *
+*       *       *       *       *       *       *       *       *       *      *
